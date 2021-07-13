@@ -1206,20 +1206,14 @@
   "ast": {
     "absolutePath": "/home/cwgoes/working/crypto/wyvern/wyvern-ethereum/contracts/WyvernExchange.sol",
     "exportedSymbols": {
-      "WyvernExchange": [
-        409
-      ]
+      "WyvernExchange": [409]
     },
     "id": 410,
     "nodeType": "SourceUnit",
     "nodes": [
       {
         "id": 363,
-        "literals": [
-          "solidity",
-          "0.4",
-          ".23"
-        ],
+        "literals": ["solidity", "0.4", ".23"],
         "nodeType": "PragmaDirective",
         "src": "41:23:7"
       },
@@ -1255,23 +1249,12 @@
             "src": "198:8:7"
           }
         ],
-        "contractDependencies": [
-          782,
-          3226,
-          5095,
-          6497
-        ],
+        "contractDependencies": [782, 3226, 5095, 6497],
         "contractKind": "contract",
         "documentation": "@title WyvernExchange\n@author Project Wyvern Developers",
         "fullyImplemented": true,
         "id": 409,
-        "linearizedBaseContracts": [
-          409,
-          3226,
-          5095,
-          6497,
-          782
-        ],
+        "linearizedBaseContracts": [409, 3226, 5095, 6497, 782],
         "name": "WyvernExchange",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -1806,20 +1789,14 @@
   "legacyAST": {
     "absolutePath": "/home/cwgoes/working/crypto/wyvern/wyvern-ethereum/contracts/WyvernExchange.sol",
     "exportedSymbols": {
-      "WyvernExchange": [
-        409
-      ]
+      "WyvernExchange": [409]
     },
     "id": 410,
     "nodeType": "SourceUnit",
     "nodes": [
       {
         "id": 363,
-        "literals": [
-          "solidity",
-          "0.4",
-          ".23"
-        ],
+        "literals": ["solidity", "0.4", ".23"],
         "nodeType": "PragmaDirective",
         "src": "41:23:7"
       },
@@ -1855,23 +1832,12 @@
             "src": "198:8:7"
           }
         ],
-        "contractDependencies": [
-          782,
-          3226,
-          5095,
-          6497
-        ],
+        "contractDependencies": [782, 3226, 5095, 6497],
         "contractKind": "contract",
         "documentation": "@title WyvernExchange\n@author Project Wyvern Developers",
         "fullyImplemented": true,
         "id": 409,
-        "linearizedBaseContracts": [
-          409,
-          3226,
-          5095,
-          6497,
-          782
-        ],
+        "linearizedBaseContracts": [409, 3226, 5095, 6497, 782],
         "name": "WyvernExchange",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -2411,7 +2377,7 @@
     "1": {
       "events": {},
       "links": {},
-      "address": "0x7be8076f4ea4a4ad08075c2508e481d6c946d12b",
+      "address": "0x29513B0E9fd9Cf9C30D7E43ff9c73818E117dCC5",
       "transactionHash": "0xedf9fbcf691727068c9fd67f018bc7db73eacdbc198ad48f11cc75fe8baaa1d3"
     },
     "4": {

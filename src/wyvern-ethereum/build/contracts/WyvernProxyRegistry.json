@@ -266,20 +266,14 @@
   "ast": {
     "absolutePath": "/home/cwgoes/working/crypto/wyvern/wyvern-ethereum/contracts/WyvernProxyRegistry.sol",
     "exportedSymbols": {
-      "WyvernProxyRegistry": [
-        455
-      ]
+      "WyvernProxyRegistry": [455]
     },
     "id": 456,
     "nodeType": "SourceUnit",
     "nodes": [
       {
         "id": 411,
-        "literals": [
-          "solidity",
-          "0.4",
-          ".23"
-        ],
+        "literals": ["solidity", "0.4", ".23"],
         "nodeType": "PragmaDirective",
         "src": "47:23:8"
       },
@@ -326,20 +320,12 @@
             "src": "263:13:8"
           }
         ],
-        "contractDependencies": [
-          5367,
-          5552,
-          6497
-        ],
+        "contractDependencies": [5367, 5552, 6497],
         "contractKind": "contract",
         "documentation": "@title WyvernProxyRegistry\n@author Project Wyvern Developers",
         "fullyImplemented": true,
         "id": 455,
-        "linearizedBaseContracts": [
-          455,
-          5552,
-          6497
-        ],
+        "linearizedBaseContracts": [455, 5552, 6497],
         "name": "WyvernProxyRegistry",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -590,10 +576,7 @@
                       "id": 438,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        7004,
-                        7005
-                      ],
+                      "overloadedDeclarations": [7004, 7005],
                       "referencedDeclaration": 7004,
                       "src": "952:7:8",
                       "typeDescriptions": {
@@ -834,20 +817,14 @@
   "legacyAST": {
     "absolutePath": "/home/cwgoes/working/crypto/wyvern/wyvern-ethereum/contracts/WyvernProxyRegistry.sol",
     "exportedSymbols": {
-      "WyvernProxyRegistry": [
-        455
-      ]
+      "WyvernProxyRegistry": [455]
     },
     "id": 456,
     "nodeType": "SourceUnit",
     "nodes": [
       {
         "id": 411,
-        "literals": [
-          "solidity",
-          "0.4",
-          ".23"
-        ],
+        "literals": ["solidity", "0.4", ".23"],
         "nodeType": "PragmaDirective",
         "src": "47:23:8"
       },
@@ -894,20 +871,12 @@
             "src": "263:13:8"
           }
         ],
-        "contractDependencies": [
-          5367,
-          5552,
-          6497
-        ],
+        "contractDependencies": [5367, 5552, 6497],
         "contractKind": "contract",
         "documentation": "@title WyvernProxyRegistry\n@author Project Wyvern Developers",
         "fullyImplemented": true,
         "id": 455,
-        "linearizedBaseContracts": [
-          455,
-          5552,
-          6497
-        ],
+        "linearizedBaseContracts": [455, 5552, 6497],
         "name": "WyvernProxyRegistry",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -1158,10 +1127,7 @@
                       "id": 438,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        7004,
-                        7005
-                      ],
+                      "overloadedDeclarations": [7004, 7005],
                       "referencedDeclaration": 7004,
                       "src": "952:7:8",
                       "typeDescriptions": {
@@ -1407,7 +1373,7 @@
     "1": {
       "events": {},
       "links": {},
-      "address": "0xa5409ec958c83c3f309868babaca7c86dcb077c1",
+      "address": "0x384147F4Fc5813f5fe7C7f037Ac5cB43C0Ffeab5",
       "transactionHash": "0x776944fc9cb70ac130026ff31bfea75d4156c6fd456a82016802964655baf18d"
     },
     "4": {
