@@ -67,20 +67,14 @@
   "ast": {
     "absolutePath": "/home/cwgoes/working/crypto/wyvern/wyvern-ethereum/contracts/WyvernTokenTransferProxy.sol",
     "exportedSymbols": {
-      "WyvernTokenTransferProxy": [
-        559
-      ]
+      "WyvernTokenTransferProxy": [559]
     },
     "id": 560,
     "nodeType": "SourceUnit",
     "nodes": [
       {
         "id": 545,
-        "literals": [
-          "solidity",
-          "0.4",
-          ".23"
-        ],
+        "literals": ["solidity", "0.4", ".23"],
         "nodeType": "PragmaDirective",
         "src": "53:23:10"
       },
@@ -116,17 +110,12 @@
             "src": "160:18:10"
           }
         ],
-        "contractDependencies": [
-          5590
-        ],
+        "contractDependencies": [5590],
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
         "id": 559,
-        "linearizedBaseContracts": [
-          559,
-          5590
-        ],
+        "linearizedBaseContracts": [559, 5590],
         "name": "WyvernTokenTransferProxy",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -250,20 +239,14 @@
   "legacyAST": {
     "absolutePath": "/home/cwgoes/working/crypto/wyvern/wyvern-ethereum/contracts/WyvernTokenTransferProxy.sol",
     "exportedSymbols": {
-      "WyvernTokenTransferProxy": [
-        559
-      ]
+      "WyvernTokenTransferProxy": [559]
     },
     "id": 560,
     "nodeType": "SourceUnit",
     "nodes": [
       {
         "id": 545,
-        "literals": [
-          "solidity",
-          "0.4",
-          ".23"
-        ],
+        "literals": ["solidity", "0.4", ".23"],
         "nodeType": "PragmaDirective",
         "src": "53:23:10"
       },
@@ -299,17 +282,12 @@
             "src": "160:18:10"
           }
         ],
-        "contractDependencies": [
-          5590
-        ],
+        "contractDependencies": [5590],
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
         "id": 559,
-        "linearizedBaseContracts": [
-          559,
-          5590
-        ],
+        "linearizedBaseContracts": [559, 5590],
         "name": "WyvernTokenTransferProxy",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -438,7 +416,7 @@
     "1": {
       "events": {},
       "links": {},
-      "address": "0xe5c783ee536cf5e63e792988335c4255169be4e1",
+      "address": "0xddA4a935F3284177Be23a06803d5343979881CAB",
       "transactionHash": "0x899db7c93103033f5eea4095f40b78609d484f62b6f054d7c4b20fcb44726b09"
     },
     "4": {
