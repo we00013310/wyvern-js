@@ -43,7 +43,8 @@ export const utils = {
       "test",
       order.basePrice,
       utils.bigNumberToBN(order.basePrice),
-      utils.bigNumberToBN(order.basePrice).toString()
+      utils.bigNumberToBN(order.basePrice).toString(),
+      new BigNumber(order.basePrice).toString()
     );
     const orderParts = [
       { value: order.exchange, type: SolidityTypes.Address },
@@ -86,7 +87,7 @@ export const utils = {
       },
       { value: order.paymentToken, type: SolidityTypes.Address },
       {
-        value: utils.bigNumberToBN(order.basePrice),
+        value: new BigNumber(order.basePrice).toString(),
         type: SolidityTypes.Uint256,
       },
       { value: utils.bigNumberToBN(order.extra), type: SolidityTypes.Uint256 },
