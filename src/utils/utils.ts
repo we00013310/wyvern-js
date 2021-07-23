@@ -39,13 +39,6 @@ export const utils = {
     return ethUtil.bufferToHex(hashBuf);
   },
   getOrderHashHex(order: Order | SignedOrder): string {
-    console.log(
-      "test",
-      order.basePrice,
-      utils.bigNumberToBN(order.basePrice),
-      utils.bigNumberToBN(order.basePrice).toString(),
-      new BigNumber(order.basePrice).toString()
-    );
     const orderParts = [
       { value: order.exchange, type: SolidityTypes.Address },
       { value: order.maker, type: SolidityTypes.Address },
