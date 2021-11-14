@@ -1,6 +1,6 @@
-import { TransactionReceipt } from '@0xproject/types';
-import { BigNumber } from '@0xproject/utils';
-import * as Web3 from 'web3';
+import { TransactionReceipt } from "@0xproject/types";
+import { BigNumber } from "@0xproject/utils";
+import * as Web3 from "web3";
 
 export interface WyvernProtocolConfig {
   network: Network;
@@ -16,9 +16,10 @@ export type AsyncMethod = (...args: any[]) => Promise<any>;
 export type SyncMethod = (...args: any[]) => any;
 
 export enum Network {
-  Main = 'main',
-  Rinkeby = 'rinkeby',
-  Testnet = 'testnet',
+  Main = "main",
+  Rinkeby = "rinkeby",
+  Testnet = "testnet",
+  Ropsten = "ropsten",
 }
 
 export enum SaleKind {
@@ -35,17 +36,17 @@ export enum HowToCall {
 }
 
 export enum AbiType {
-  Function = 'function',
-  Constructor = 'constructor',
-  Event = 'event',
-  Fallback = 'fallback',
+  Function = "function",
+  Constructor = "constructor",
+  Event = "event",
+  Fallback = "fallback",
 }
 
 export enum WyvernProtocolError {
-  InvalidSignature = 'INVALID_SIGNATURE',
-  TransactionMiningTimeout = 'TRANSACTION_MINING_TIMEOUT',
-  InvalidJump = 'INVALID_JUMP',
-  OutOfGas = 'OUT_OF_GAS',
+  InvalidSignature = "INVALID_SIGNATURE",
+  TransactionMiningTimeout = "TRANSACTION_MINING_TIMEOUT",
+  InvalidJump = "INVALID_JUMP",
+  OutOfGas = "OUT_OF_GAS",
 }
 
 export interface ECSignature {
@@ -75,17 +76,17 @@ export interface TransactionReceiptWithDecodedLogs extends TransactionReceipt {
 
 export type EventCallback<ArgsType> = (
   err: null | Error,
-  log?: DecodedLogEvent<ArgsType>,
+  log?: DecodedLogEvent<ArgsType>
 ) => void;
 export type EventWatcherCallback = (log: LogEvent) => void;
 
 export enum SolidityTypes {
-  Address = 'address',
-  Uint256 = 'uint256',
-  Uint8 = 'uint8',
-  Uint = 'uint',
-  Bytes = 'bytes',
-  String = 'string',
+  Address = "address",
+  Uint256 = "uint256",
+  Uint8 = "uint8",
+  Uint = "uint",
+  Bytes = "bytes",
+  String = "string",
 }
 
 export type RawLog = Web3.LogEntry;
@@ -135,19 +136,19 @@ export interface SignedOrder extends Order {
 }
 
 export enum StateMutability {
-  Pure = 'pure',
-  View = 'view',
-  Payable = 'payable',
-  Nonpayable = 'nonpayable',
+  Pure = "pure",
+  View = "view",
+  Payable = "payable",
+  Nonpayable = "nonpayable",
 }
 
 export enum FunctionInputKind {
-  Replaceable = 'replaceable',
-  Asset = 'asset',
-  Owner = 'owner',
-  Index = 'index',
-  Count = 'count',
-  Data = 'data',
+  Replaceable = "replaceable",
+  Asset = "asset",
+  Owner = "owner",
+  Index = "index",
+  Count = "count",
+  Data = "data",
 }
 
 export interface AnnotatedFunctionInput {
@@ -158,10 +159,10 @@ export interface AnnotatedFunctionInput {
 }
 
 export enum FunctionOutputKind {
-  Owner = 'owner',
-  Asset = 'asset',
-  Count = 'count',
-  Other = 'other',
+  Owner = "owner",
+  Asset = "asset",
+  Count = "count",
+  Other = "other",
 }
 
 export interface AnnotatedFunctionOutput {
@@ -184,11 +185,11 @@ export interface AnnotatedFunctionABI {
 export type ReplacementEncoder = (
   abi: AnnotatedFunctionABI,
   kind?: FunctionInputKind,
-  encodeToBytes?: boolean,
+  encodeToBytes?: boolean
 ) => string;
 export type AtomicizedReplacementEncoder = (
   abis: AnnotatedFunctionABI[],
-  kind?: FunctionInputKind,
+  kind?: FunctionInputKind
 ) => string;
 
 export type Web3Provider = Web3.Provider;
