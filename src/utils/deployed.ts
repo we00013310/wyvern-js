@@ -73,7 +73,7 @@ export const deployed = {
     TestStatic: "0x38a0f4acbb5efabb44539f960a60376cb6547602",
     WyvernProxyRegistry: "0x947A4bd9F4D4def9758f8B3b159c08D2D5F6eD0E",
     SaleKindInterface: "0x77a1dada690ab5172d80ae3b7ccaf88ee3c2e607",
-    WyvernExchange: "0xa4524EDB94c5627D09A4A15A1b569A92aBB46852",
+    WyvernExchange: "0x4C1c2671B9ABcD746A1B520E2Ed97F0D47137c5f",
     WyvernDAOProxy: "0xa839d4b5a36265795eba6894651a8af3d0ae2e68",
     WyvernAtomicizer: "0xc99f70bfd82fb7c8f8191fdfbfb735606b15e5c5",
     WyvernTokenTransferProxy: "0x3cD7Dc6CC70BC800c1A256e2C5fc90dcba9eEc5a",
