@@ -20,6 +20,7 @@ export enum Network {
   Rinkeby = "rinkeby",
   Testnet = "testnet",
   Ropsten = "ropsten",
+  Ethereum = "ethereum",
 }
 
 export enum SaleKind {

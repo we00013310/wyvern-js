@@ -78,4 +78,19 @@ export declare const deployed: {
         WyvernAtomicizer: string;
         WyvernTokenTransferProxy: string;
     };
+    ethereum: {
+        Migrations: string;
+        MerkleProof: string;
+        WyvernToken: string;
+        WyvernDAO: string;
+        TestToken: string;
+        TestDAO: string;
+        TestStatic: string;
+        WyvernProxyRegistry: string;
+        SaleKindInterface: string;
+        WyvernExchange: string;
+        WyvernDAOProxy: string;
+        WyvernAtomicizer: string;
+        WyvernTokenTransferProxy: string;
+    };
 };

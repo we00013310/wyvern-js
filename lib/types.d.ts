@@ -17,6 +17,7 @@ export declare enum Network {
     Rinkeby = "rinkeby",
     Testnet = "testnet",
     Ropsten = "ropsten",
+    Ethereum = "ethereum",
 }
 export declare enum SaleKind {
     FixedPrice = 0,
